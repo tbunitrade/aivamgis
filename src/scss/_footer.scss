@@ -1,0 +1,55 @@
+.footer {
+    padding-top: 315px;
+
+    .title {
+        color:$smalltitlered;
+        font-size: 3em;
+        text-transform: uppercase;
+        line-height: 3em;
+        margin: auto;
+        margin-top: 4em;
+        margin-left: 3em;
+    }
+
+    .text {
+        font-size: 1.8em;
+        color:$text;
+        line-height: 48px;
+        margin-left: 5em;
+    }
+
+    .lastTitle {
+        color:smalltitlered;
+    }
+
+    .backTopArrow    {
+        line-height: 84px;
+        font-size: 36px;
+        font-family:    'Arial';
+        font-weight:bold;
+        color: $nav;
+        display: inline-block;
+        margin: 10px;  
+        text-transform: uppercase;   
+        height: 84px;        
+        background-image: url(../assets/arrow_back@2x.png);            
+        background-repeat: no-repeat; 
+
+      
+        @media (min-width: $screen-lg-min) { margin: 60px }
+
+        @include image-2x("arrow_back@2x.png", 84px, 84px);
+        
+        label {            
+           
+            display: inline-block;
+            //width: 42px;
+            width: 84px;
+            //height: 42px;
+            height: 84px;
+            padding-left: 100px;
+        }
+            
+    }
+    
+}
