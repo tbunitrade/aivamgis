@@ -17,8 +17,8 @@ body {
 }
 
 .container-fluid {
-   padding: 0;
-   margin: 0;
+  //  padding: 0;
+  //  margin: 0;
 
   @media (min-width: $screen-md-min) {
 
@@ -26,8 +26,8 @@ body {
 }
 
 * {
-  border:0px solid red;
-  outline: 0px solid red;
+  border: 0px solid red;
+  outline: 0px solid red!important;
 }
 
 a {
