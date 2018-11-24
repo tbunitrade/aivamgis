@@ -133,7 +133,7 @@
             line-height: 119px;
             padding: 2em 0 15em; 
             line-height: 119px;
-            padding: 50px 0 141px;           
+            padding: 5% 0;           
         }
 
         @media (min-width: $screen-lg-min) { 
@@ -216,16 +216,16 @@
 
             @media (min-width: $screen-sm-min) {           
                 margin-top: 3em;
-                margin-bottom: 5em;
+                margin-bottom: 5%;
             }
 
             @media (min-width: $screen-md-min) {
                 margin-top: 2em;
-                margin-bottom: 5em;
+                margin-bottom: 5%;
             }
 
             @media (min-width: $screen-lg-min) {
-                margin-bottom: 8em;
+                margin-bottom: 5%;
                 max-width: 21em;
             }
         }        
