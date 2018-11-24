@@ -49,6 +49,7 @@
 
         @media (min-width: $screen-lg-min) {
             margin: 4em; 
+
             img {
                 width: 84px;
                 height: 84px;                
@@ -81,10 +82,23 @@
         height: 37px;
         margin: 1em;   
                
-        @media (min-width: $screen-md-min) {           
-           
+        @media (min-width: $screen-lg-min) {           
+           display: none;               
+            height: 73px;
+            margin: 4em;
         }  
     }/*end of smalllogo*/
+ 
+    .smallLogo32 {
+        display: none;
+        @media (min-width: $screen-lg-min) {           
+            
+
+            display: block;
+            height: 73px;
+            margin: 4em;
+         } 
+    }
 
     .firstRow {
         display: flex;        
@@ -100,10 +114,27 @@
         
         @media (min-width: $screen-md-min) {            
             line-height: 119px;
-            padding: 1em 0 2em;            
+            padding: 2em 0 11em;            
         }
 
         @media (min-width: $screen-lg-min) { 
+            margin-top: 0 ;
+            display: none; 
+        }
+    }/*end of logo*/
+
+    .logo32 {           
+        line-height:59px;       
+        margin: 0 auto;
+        display: none;   
+        
+        @media (min-width: $screen-md-min) {            
+            line-height: 119px;
+            padding: 2em 0 15em;            
+        }
+
+        @media (min-width: $screen-lg-min) { 
+            display: block;
             margin-top: 0 
         }
     }/*end of logo*/
@@ -118,7 +149,7 @@
             letter-spacing: 0.11em;
             font-weight: 500;           
             text-transform: uppercase;
-            margin-bottom: 1em;
+            margin-bottom: 2em;
 
             @media (min-width: $screen-sm-min) { 
                 font-size: 3em;
@@ -133,7 +164,7 @@
             @media (min-width: $screen-lg-min) { 
                 font-size: 8em;
                 line-height: 96px;
-                line-height: 4em;                            
+                line-height: 1em;                            
             }  
         }     
        
@@ -173,13 +204,18 @@
             margin-bottom: 2em;               
 
             @media (min-width: $screen-sm-min) {           
-                margin-top: 2em;
-                margin-bottom: 3em;
+                margin-top: 3em;
+                margin-bottom: 5em;
             }
 
             @media (min-width: $screen-md-min) {
                 margin-top: 2em;
-                margin-bottom: 3em;
+                margin-bottom: 5em;
+            }
+
+            @media (min-width: $screen-lg-min) {
+                margin-bottom: 8em;
+                max-width: 26em;
             }
         }        
 
