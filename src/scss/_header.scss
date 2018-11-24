@@ -115,7 +115,7 @@
         
         @media (min-width: $screen-md-min) {            
             line-height: 119px;
-            padding: 2em 0 11em;            
+            padding: 5% 0;           
         }
 
         @media (min-width: $screen-lg-min) { 
@@ -130,10 +130,8 @@
         display: none;   
         
         @media (min-width: $screen-md-min) {            
-            line-height: 119px;
-            padding: 2em 0 15em; 
-            line-height: 119px;
-            padding: 5% 0;           
+            padding: 2em 0 15em;
+            padding: 3% 0;           
         }
 
         @media (min-width: $screen-lg-min) { 
@@ -188,6 +186,10 @@
                 font-size: 1.7em;
                 line-height: 2em;
                 letter-spacing: 0.0em;
+            }
+
+            @media (min-width: $screen-md-min) { 
+                font-size: 3rem;  
             }
 
             @media (min-width: $screen-lg-min) { 
