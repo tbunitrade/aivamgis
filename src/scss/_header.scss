@@ -131,7 +131,9 @@
         
         @media (min-width: $screen-md-min) {            
             line-height: 119px;
-            padding: 2em 0 15em;            
+            padding: 2em 0 15em; 
+            line-height: 119px;
+            padding: 50px 0 141px;           
         }
 
         @media (min-width: $screen-lg-min) { 
@@ -145,7 +147,7 @@
         h1 {
             font-size: 2em;
             color: $title;
-            font-family: 'Univers';
+            font-family: 'Open Sans';
             line-height: 1em;
             letter-spacing: 0.11em;
             font-weight: 500;           
@@ -163,7 +165,7 @@
             }
 
             @media (min-width: $screen-lg-min) { 
-                font-size: 6em;
+                font-size: 5em;
                 line-height: 96px;
                 line-height: 1em;                            
             }  
@@ -262,7 +264,7 @@
             color: $smalltitlered;
             text-transform: uppercase;
             font-weight: 700;
-            font-family: 'Universe';
+            font-family: 'Open Sans';
             letter-spacing: 0.02em;
 
             @media (min-width: $screen-sm-min) {
