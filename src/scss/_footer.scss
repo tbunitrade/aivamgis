@@ -17,7 +17,19 @@
             @media (min-width:$screen-md-min) {               
                 max-width: 20em;
                 margin-left: 2em;
-            }            
+            }   
+            
+            
+            @media (min-width: $screen-lg-min) {
+                
+                margin-left: 6em;
+                max-width: 519px;
+            }
+
+            @media (min-width: 2000px) {
+                width: auto;
+                max-width: unset;
+            }
         }
     }/*end of this*/
 
@@ -31,7 +43,7 @@
 
             @media (min-width: $screen-md-min) {
                 right: -1em;
-            }
+            }            
         }
     }/*end of this*/
 
@@ -48,6 +60,10 @@
                 width: 41em;
                 margin-top: 5em;
             }    
+
+            @media (min-width: 2000px) {
+                width: auto;
+            }
         }
         
     }/*end of this*/
@@ -63,10 +79,10 @@
     }/*end of this*/
 
     .row {
-        margin: 0;
+        // margin: 0;
 
         @media (min-width: $screen-md-min) {
-            margin: auto;
+            // margin: auto;
         }
     }/*end of this*/
 
@@ -86,13 +102,22 @@
             margin-top: 4em;
             margin-left: 0.2em;
         }
+
+        @media (min-width: $screen-md-min) {
+            margin-left: 1.7em;
+        }
         
 
         @media (min-width: $screen-lg-min) {
-            font-size: 3em;
-            line-height: 3em;
-            margin-top: 4em;
-            margin-left: 3em;
+            font-size: 2.6em;
+            line-height: 2em;
+            margin-top: 1em;
+            margin-left: 1em;
+        }
+
+        @media (min-width: 1600px) { 
+            margin-left: 2.3em;
+            margin-top: 2em;
         }
     }/*end of title*/
 
@@ -106,22 +131,49 @@
         @media (min-width: $screen-sm-min) {
             font-size: 0.8em;
             line-height: 2em;
-            padding-right: 22%;
-            /* margin-left: 2.7em; */
-            /* margin-top: 2em; */
-            /* margin-right: 12em; */
+            padding-right: 22%;            
             margin-bottom: 4em;
+        }
+
+        @media (min-width: $screen-md-min) {
+            margin-left: 2.6em;
+            padding-right: 35%;
+
         }
 
         @media (min-width: $screen-lg-min) {
             font-size: 1.8em;        
+            padding-right: 13%; 
+            font-size: 1.6em;
+            line-height: 1em;
+            margin-left: 1.7em;
+            margin-top: 0;
+        }
+
+        @media (min-width: 1600px) { 
+            margin-left: 3.3em;
             line-height: 2em;
-            margin-left: 5em;
+            padding-right: 25%;
+            font-size: 1.8em;
+            margin-top: 1em;
         }
     }/*end of text*/
 
     .lastTitle {
         color: $smalltitlered;
+
+        @media (min-width: $screen-md-min) { 
+
+            margin-left: 1em;
+            margin-top: 3.5em;
+        }
+
+        @media (min-width: $screen-lg-min) { 
+            font-size: 2.8em;
+            line-height: 1em;
+            margin-left: 0.7em;
+            margin-top: 3em;
+        }
     }/*end of lastTitle*/
 
     .lastText {
@@ -129,28 +181,40 @@
         @media (min-width: $screen-sm-min) {
             padding-right: 20%;
         }
+
+        @media (min-width: $screen-md-min) {
+            margin-left: 1.8em;
+            padding-top: 3em;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            font-size: 1.8em;
+            line-height: 2em;
+            margin-left: 1.2em;
+            padding-top: 1em;
+            padding-right: 25%;
+        }
     }
 
     .backTopArrow    {
-        width: 100%;
-        //max-width: 5em; 
-        display: inline-block;
+        width: 100%;        
+        display: flex;
         line-height: 1em;
         font-size: 0.5em;
-        font-family:    'Arial';
-        font-weight:bold;
+        font-family: 'Arial';
+        font-weight: bold;
         color: $nav;       
-        margin: 1em 0em;        
+        margin: 1em;        
         text-transform: uppercase; 
         
         img {
             width: 23px;
             height: 23px;
-        }
-        
+        }        
       
         @media (min-width: $screen-sm-min) {        
-            font-size: 1em;
+            //
+
             img {
                 width: 42px;
                 height: 42px;
@@ -158,11 +222,13 @@
         }
 
         @media (min-width: $screen-md-min) {            
-            /*max-width: 14em; */           
+            /*max-width: 14em; */  
+            font-size: 1em;         
         }
 
         @media (min-width: $screen-lg-min) {
             margin: 4em; 
+
             img {
                 width: 84px;
                 height: 84px;                
@@ -178,27 +244,16 @@
         }
 
         label {                       
-            display: inline-block;
-            vertical-align: middle;
-            height: auto;            
-            position: relative;
-            top: -9px;
-            
-            @media (min-width: $screen-sm-min) {
-                top: -15px;
-            }
+            display: inline-flex;
+            align-items: center;
+            padding: 0em 1em;
+        }  
 
-            @media (min-width: $screen-md-min) {                
-                top: -15px;
-            }
-
-            @media (min-width: 1700px) {
-                top: -31px;
-            }
-        }         
     }/*end of backTopArrow*/
+
     .next-case {
-        text-align: right;
+        justify-content: flex-end;
+
         img {
             transform: rotate(180deg);
         }
@@ -219,4 +274,14 @@
             }
         }
     }/*end of float-right*/
+
+    .ticketRow {
+        padding-top: 4em;
+        padding-bottom: 1em;
+    }
+
+    .bottomRow {
+        padding-top: 4em;
+        padding-bottom: 1em;
+    }
 }/*end of footer*/

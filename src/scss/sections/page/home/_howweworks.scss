@@ -13,10 +13,10 @@
     }
 
     .row {
-        margin: 0;
+        // margin: 0;
 
         @media (min-width: $screen-md-min) {
-            margin: auto;
+            // margin: auto;
         }
 
         .text-center {
@@ -72,8 +72,7 @@
 
     .smallRow {        
         padding: 0;
-        margin: 0;
-        
+        margin: 0;        
         margin: auto;
         margin-top: 2em;
         margin-bottom: 4em;
@@ -84,37 +83,33 @@
             .image {
                 margin-bottom: 2em;
 
-                //background: red!important;
                 @media (min-width: $screen-md-min) {
                     
                     &::after {
                         display: block;
-                        content: '';                                      
-                                        
-                        background-repeat: no-repeat;
-                        // width: 100%;
-                        // max-width: 9em;
-
-                        width: 75%;
+                        content: ''; 
+                        background-repeat: no-repeat;                       
+                        width: 50%;
                         height: 1px;
                         position: absolute;
                         top: 4em;
-                        left: 11em;
+                        right: -31%;
+
+                        background-image: url(../assets/how_we_work_line@2x.png);            
+                        @include image-2x("how_we_work_line@2x.png", 400px, 1px);
     
                         @media (min-width: $screen-lg-min) {
-                            max-width: 16em;
-                            top: 5em;
-                            left: 10em; 
+                            // max-width: 16em;
+                            // left: 10em;
+                            width: 65%;
+                            top: 4em;
+                            right: -33%;
                         }
 
                         @media (min-width: 2500px)  {
                             //max-width: 16em;
-                        }
-
-        
+                        }                      
                         
-                        background-image: url(../assets/how_we_work_line@2x.png);            
-                        @include image-2x("how_we_work_line@2x.png", 400px, 1px);
                     }
                 }                    
             }/*end of image*/
@@ -125,24 +120,10 @@
                     margin-bottom: 2em;
                     
                     &::after {
-                        width: 100%;
-                        ///max-width: 11em;
-                        left: 16em;
-
-                        width: 100%;
-                        //max-width: 8em;
-                        left: 13em;
-
-                        width: 100%;
-                        /* max-width: 11em; */
-                        left: 16em;
-                        width: 68%;
-                        /* max-width: 8em; */
-                        left: 13em;
+                        // 
 
                         @media (min-width: $screen-lg-min) {
-                            max-width: 11em;
-                            left: 12em;
+                           
                         }
                         
                         

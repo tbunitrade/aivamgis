@@ -6,10 +6,10 @@
     height: 100vh;    
 
     .row {
-        margin: 0;
+        // margin: 0;
 
         @media (min-width: $screen-md-min) {
-            margin: auto;
+            // margin: auto;
         }
 
         .text-center {
@@ -18,13 +18,12 @@
     }/*end of row*/
     
     .backTopArrow    { 
-        width: 100%;
-        
-        display: inline-block;
+        width: 100%;        
+        display: flex;
         line-height: 1em;
         font-size: 1em;
-        font-family:    'Arial';
-        font-weight:bold;
+        font-family: 'Arial';
+        font-weight: bold;
         color: $nav;       
         margin: 1em;        
         text-transform: uppercase; 
@@ -32,8 +31,7 @@
         img {
             width: 23px;
             height: 23px;
-        }
-        
+        }        
       
         @media (min-width: $screen-sm-min) {        
             
@@ -58,23 +56,9 @@
         }
 
         label {                       
-            display: inline-block;
-            vertical-align: middle;
-            height: auto;            
-            position: relative;
-            top: -5px;
-            
-            @media (min-width: $screen-sm-min) {
-                top: -13px;
-            }
-
-            @media (min-width: $screen-md-min) {                
-                top: -16px;
-            }
-
-            @media (min-width: $screen-lg-min) {
-                top:-30px;
-            }
+            display: inline-flex;            
+            align-items: center;
+            padding: 0em 1em;              
         }               
     }/*end of backTopArrow*/
 
@@ -158,7 +142,7 @@
                 margin-bottom: 0;
             }
 
-            @media (min-width: $screen-md-min) { 
+            @media (min-width: 1150px) { 
                 font-size: 4em;
             }
 
@@ -188,7 +172,7 @@
                 letter-spacing: 0.0em;
             }
 
-            @media (min-width: $screen-md-min) { 
+            @media (min-width: 1150px) { 
                 font-size: 3rem;  
             }
 

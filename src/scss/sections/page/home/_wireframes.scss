@@ -4,6 +4,8 @@
     background-repeat: repeat;
     width: 100%;
     height: auto;
+    padding-top: 7em;
+    padding-bottom: 10em;
 
     @media (min-width: $screen-md-min) {
         min-height: 59em;
@@ -11,10 +13,10 @@
     }
 
     .row {       
-        padding-bottom: 2em;
+      
 
         @media (min-width: $screen-md-min) {
-            margin: auto;
+            // margin: auto;
         }
 
         .text-center {
@@ -30,10 +32,12 @@
         
         margin-top: 1.2em;
         margin-left: 0;
+        text-align: center;
 
         @media (min-width: $screen-sm-min) {
-            margin-top: 0.2em;
+            margin-top: 2.2em;
             margin-left: 0.52em;
+            text-align: left;
         }
 
         @media (min-width: $screen-md-min) {
@@ -48,6 +52,10 @@
             //margin-left: 1.52em;
             margin-left: 0.8em;
         }
+
+        @media (min-width:  2000px) {
+            margin-left: 1.5em;
+        }
     }  /*end of title*/
     
     .description {
@@ -57,9 +65,10 @@
         font-family: "Open Sans";              
         margin-top: 0.2em;
         margin-left: 0.12em;
+        text-align: center;
 
         @media (min-width: $screen-sm-min) {
-               
+               text-align: left;
         }
         
         @media (min-width: $screen-md-min) {           
@@ -75,29 +84,31 @@
             margin-top: 80px;
             margin-left: 2.2em;
         }
+
+        @media (min-width:  2000px) {
+            margin-left: 4em;
+        }
     }/*end of description*/
 
     img {      
-        width: 100%;
-        max-width: 19em;
-        height: auto;
-        display: block;
-        margin: auto;
-        margin-top: 5.2em;
-        max-width: 16em;
+        width: 100%;     
+        max-width: 300px;
         height: auto;
         display: block;
         margin: auto;
         margin-top: 5.2em;
         position: relative;
         
-
         @media (min-width: $screen-md-min) {
-            left: -1.7em;
+            max-width: 300px;
         }
 
-        @media (min-width: $screen-lg-min) {
-            max-width: 32em;
+        @media (min-width: $screen-lg-min) {        
+            max-width: 400px;
+        }
+
+        @media (min-width: 2500px) {
+            max-width: 500px;
         }
 
     }/*end of this*/
@@ -114,14 +125,18 @@
         left: 0;
 
         @media (min-width: $screen-md-min) {
-            left: -2em;
+            left: 0;
+        }
+
+        @media (min-width: 1600px) {
+            top: 5em;
         }
     }/*end of this*/
 
     .more-down {
         display: block;
 
-        @media (min-width: $screen-md-min) {
+        @media (min-width: $screen-sm-min) {
             display: none;
         }
     }
@@ -129,29 +144,38 @@
     .arrow-left {
         display: none;
 
-        @media (min-width: $screen-md-min) {
+        @media (min-width: 1200px) {
+            display: block;
             background-image: url('../img/arrow-left.png');
             background-repeat: no-repeat;
             background-position: center center;
-            width: 6em;
-            height: 1em;
+            background-size: contain;            
             margin: auto;
             position: relative;
-            top: -5em;
-            left: -14em;
-            background-size: contain;
-            display: block;
+
+            top: -5em;            
+            left: -53%;         
+            width: 21%;
+            height: 1em;        
+        }
+
+        @media (min-width: $screen-lg-min) {
+            width: auto;
+            top: -7em;            
+            
+        }
+
+        @media (min-width: 2000px)         {
+            //top: -9em;            
         }
         
-        @media (min-width: $screen-lg-min) {
-            width: 12em;
-            height: 1em;
-            margin: auto;
-            position: relative;
-            top: -9em;
-            left: -27em;
-            background-size: contain;
-        }
+        // @media (min-width: $screen-lg-min) {
+        //     width: 12em;
+        //     height: 1em;            
+        //     top: -7em;
+        //     left: -50%;
+            
+        // }
     }/*end of this*/
 
     .arrow-right {
