@@ -114,7 +114,7 @@
             //margin-bottom: 2em;
 
             @media (min-width: $screen-sm-min) { 
-                font-size: 3.12vh;
+                font-size: 4.12vh;
                 line-height: 3.84vh;
                 margin-bottom: 0;
             }
@@ -145,7 +145,7 @@
             letter-spacing: 0;
 
             @media (min-width: $screen-sm-min) {
-                font-size: 2.1vh;               
+                font-size: 3.1vh;               
                 line-height: 7.84vh;
                 letter-spacing: 0.0em;
             }
@@ -174,8 +174,7 @@
             content: '';
             display: block;
             background: $smalltitlered;        
-            width: 14.4vh;
-            
+            width: 14.4vh;            
             height: 0.12vh;
             display: block;
             margin: auto;

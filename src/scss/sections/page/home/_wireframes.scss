@@ -28,25 +28,21 @@
         text-align: center;
 
         @media (min-width: $screen-sm-min) {
-            margin-top: 2.2em;
-            //margin-left: 0.52em;
+            margin-top: 2.2em;        
             text-align: left;
         }
 
         @media (min-width: $screen-md-min) {
             font-size: 4em;
-            margin-top: 1.2em;
-            //margin-left: 0.52em;
+            margin-top: 1.2em;      
+            margin-left: 0.5em;
         }
         @media (min-width: $screen-lg-min) {
             font-size: 6em;      
             margin-top: 0.7em;          
             margin-left: 0.71em;
         }
-
-        @media (min-width:  2000px) {
-            //margin-left: 1.5em;
-        }
+      
     }  /*end of title*/
     
     .description {
@@ -66,7 +62,7 @@
             font-size: 1.25em;
             line-height: 2em;
             margin-top: 1em;
-            margin-left: 0;
+            margin-left: 1.5em;
         }
 
         @media (min-width:  $screen-lg-min) {
