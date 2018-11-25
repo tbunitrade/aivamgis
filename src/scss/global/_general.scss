@@ -25,6 +25,11 @@ body {
   }
 }
 
+.firstRow {
+  display: flex;        
+  justify-content: space-between;
+}
+
 * {
   border: 0px solid red;
   outline: 0px solid red!important;

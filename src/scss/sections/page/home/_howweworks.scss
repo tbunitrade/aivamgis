@@ -82,7 +82,7 @@
             list-style-type: none;
             
             .image {
-                margin-bottom: 1em;
+                margin-bottom: 2em;
 
                 //background: red!important;
                 @media (min-width: $screen-md-min) {
@@ -90,19 +90,27 @@
                     &::after {
                         display: block;
                         content: '';                                      
-                        width: 100%;
-                        max-width: 14em;
+                                        
+                        background-repeat: no-repeat;
+                        // width: 100%;
+                        // max-width: 9em;
+
+                        width: 75%;
                         height: 1px;
                         position: absolute;
                         top: 4em;
-                        left: 12em;                    
-                        background-repeat: no-repeat;
+                        left: 11em;
     
                         @media (min-width: $screen-lg-min) {
-                            max-width: 13em;
+                            max-width: 16em;
                             top: 5em;
                             left: 10em; 
                         }
+
+                        @media (min-width: 2500px)  {
+                            //max-width: 16em;
+                        }
+
         
                         
                         background-image: url(../assets/how_we_work_line@2x.png);            
@@ -118,8 +126,19 @@
                     
                     &::after {
                         width: 100%;
-                        max-width: 11em;
+                        ///max-width: 11em;
                         left: 16em;
+
+                        width: 100%;
+                        //max-width: 8em;
+                        left: 13em;
+
+                        width: 100%;
+                        /* max-width: 11em; */
+                        left: 16em;
+                        width: 68%;
+                        /* max-width: 8em; */
+                        left: 13em;
 
                         @media (min-width: $screen-lg-min) {
                             max-width: 11em;
@@ -191,6 +210,7 @@
             color: $nextred;
             text-transform: uppercase;
             line-height: 1em;
+            min-height: 3em;
 
             @media (min-width: $screen-sm-min) {
                 font-size: 2em;
@@ -208,9 +228,11 @@
             font-size: .85em;
             line-height: 1.4em;
             margin-top: 0.5em;
+            font-style: italic;
+            font-family: 'Open Sans';
 
             @media (min-width: $screen-sm-min) {
-                font-size: 1.15em;
+                font-size: 1.01em;
             }
 
             @media (min-width: $screen-lg-min) {

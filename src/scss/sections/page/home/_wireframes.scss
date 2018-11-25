@@ -6,11 +6,12 @@
     height: auto;
 
     @media (min-width: $screen-md-min) {
-        height: 59em;
+        min-height: 59em;
+
     }
 
-    .row {
-        margin: 0;
+    .row {       
+        padding-bottom: 2em;
 
         @media (min-width: $screen-md-min) {
             margin: auto;
@@ -18,7 +19,7 @@
 
         .text-center {
             width: 100%;
-        }
+        }        
     } /*end of row*/
 
     .title {
@@ -42,8 +43,10 @@
         }
         @media (min-width: $screen-lg-min) {
             font-size: 6em;
-            margin-top: 2.2em;
-            margin-left: 1.52em;
+            //margin-top: 2.2em;
+            margin-top: 0.7em;            
+            //margin-left: 1.52em;
+            margin-left: 0.8em;
         }
     }  /*end of title*/
     
@@ -61,7 +64,7 @@
         
         @media (min-width: $screen-md-min) {           
             font-size: 1.25em;
-            line-height: 1em;
+            line-height: 2em;
             margin-top: 1em;
             margin-left: 1.82em;
         }
@@ -92,6 +95,11 @@
         @media (min-width: $screen-md-min) {
             left: -1.7em;
         }
+
+        @media (min-width: $screen-lg-min) {
+            max-width: 32em;
+        }
+
     }/*end of this*/
 
     .arrow-down {
@@ -111,24 +119,39 @@
     }/*end of this*/
 
     .more-down {
-        
+        display: block;
+
         @media (min-width: $screen-md-min) {
             display: none;
         }
     }
 
     .arrow-left {
+        display: none;
 
-        background-image: url('../img/arrow-left.png');
-        background-repeat: no-repeat;
-        background-position: center center;
-        width: 6em;
-        height: 1em;
-        margin: auto;
-        position: relative;
-        top: -5em;
-        left: -14em;
-        background-size: contain;
+        @media (min-width: $screen-md-min) {
+            background-image: url('../img/arrow-left.png');
+            background-repeat: no-repeat;
+            background-position: center center;
+            width: 6em;
+            height: 1em;
+            margin: auto;
+            position: relative;
+            top: -5em;
+            left: -14em;
+            background-size: contain;
+            display: block;
+        }
+        
+        @media (min-width: $screen-lg-min) {
+            width: 12em;
+            height: 1em;
+            margin: auto;
+            position: relative;
+            top: -9em;
+            left: -27em;
+            background-size: contain;
+        }
     }/*end of this*/
 
     .arrow-right {
