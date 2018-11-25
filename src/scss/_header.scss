@@ -121,7 +121,7 @@
 
             @media (min-width: $screen-md-min) { 
                 font-size: 5.12vh;
-                line-height: 3.84vh;
+                line-height: 13.84vh;
             }
 
             @media (min-width: $screen-lg-min) { 
@@ -150,14 +150,16 @@
                 letter-spacing: 0.0em;
             }
 
-            @media (min-width: 1150px) { 
-                font-size: 2.88vh;               
+            @media (min-width: $screen-md-min) { 
+                font-size: 3.1vh;               
                 line-height: 3.84vh; 
             }
 
             @media (min-width: $screen-lg-min) { 
                 font-size: 2.88vh;               
                 line-height: 3.84vh;
+                font-size: 3.18vh;
+                line-height: 9.84vh;
             }  
 
             @media (min-width: 2500px) { 
