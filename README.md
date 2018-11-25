@@ -1,6 +1,3 @@
-# test task 
-
-hidename
 
 ## Getting Started
 
@@ -20,12 +17,6 @@ Be sure that you use on your localhost server (openserver etc)
 
 ```
 npm install -g 
-```
-
-And repeat
-
-```
-npm install gulp
 gulp
 ```
 
