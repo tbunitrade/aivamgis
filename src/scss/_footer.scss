@@ -103,7 +103,7 @@
             margin-left: 0.2em;
         }
 
-        @media (min-width: $screen-md-min) {
+        @media (min-width: 1150px) {
             margin-left: 1.7em;
         }
         
@@ -131,11 +131,15 @@
         @media (min-width: $screen-sm-min) {
             font-size: 0.8em;
             line-height: 2em;
-            padding-right: 22%;            
+            padding-right: 18%;            
             margin-bottom: 4em;
         }
 
-        @media (min-width: $screen-md-min) {
+        @media (min-width: 950px) {
+            padding-right: 23%;  
+        }
+
+        @media (min-width: 1150px) {
             margin-left: 2.6em;
             padding-right: 35%;
 
