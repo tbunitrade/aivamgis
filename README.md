@@ -1,5 +1,5 @@
 
-## Getting Started
+## Sigma software landing page
 
 Simple html + css (sass framework)
 
