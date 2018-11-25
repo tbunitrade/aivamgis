@@ -52,14 +52,16 @@
         span {
             color: $span;
             font-size: 0.9em;
-            line-height: 0.5em;
+            line-height: 1.5em;
+            width: 57%;
+            display: block;
+            margin: auto;
 
             @media (min-width: $screen-sm-min) {
                 font-size: 1.5em;
                 line-height: 1.3em;
-                width: 57%;
-                display: block;
-                margin: auto;
+                
+                
                 margin-top: 1em;
                 margin-bottom: 2em;
             }

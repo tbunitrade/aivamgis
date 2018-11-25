@@ -29,23 +29,23 @@
 
         @media (min-width: $screen-sm-min) {
             margin-top: 2.2em;
-            margin-left: 0.52em;
+            //margin-left: 0.52em;
             text-align: left;
         }
 
         @media (min-width: $screen-md-min) {
             font-size: 4em;
             margin-top: 1.2em;
-            margin-left: 0.52em;
+            //margin-left: 0.52em;
         }
         @media (min-width: $screen-lg-min) {
             font-size: 6em;      
             margin-top: 0.7em;          
-            margin-left: 0.8em;
+            //margin-left: 0.8em;
         }
 
         @media (min-width:  2000px) {
-            margin-left: 1.5em;
+            //margin-left: 1.5em;
         }
     }  /*end of title*/
     
@@ -55,7 +55,7 @@
         color: $white;
         font-family: "Open Sans";              
         margin-top: 0.2em;
-        margin-left: 0.12em;
+        margin-left: 0;
         text-align: center;
 
         @media (min-width: $screen-sm-min) {
@@ -66,18 +66,18 @@
             font-size: 1.25em;
             line-height: 2em;
             margin-top: 1em;
-            margin-left: 1.82em;
+            margin-left: 0;
         }
 
         @media (min-width:  $screen-lg-min) {
             font-size: 2.25em;
             line-height: 2em;
             margin-top: 80px;
-            margin-left: 2.2em;
+            margin-left: 0;
         }
 
         @media (min-width:  2000px) {
-            margin-left: 4em;
+            margin-left: 0;
         }
     }/*end of description*/
 
