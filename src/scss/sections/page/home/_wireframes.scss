@@ -9,16 +9,10 @@
 
     @media (min-width: $screen-md-min) {
         min-height: 59em;
-
     }
 
     .row {       
-      
-
-        @media (min-width: $screen-md-min) {
-            // margin: auto;
-        }
-
+    
         .text-center {
             width: 100%;
         }        
@@ -28,8 +22,7 @@
         font-size: 2em;
         color: $white;
         text-transform: uppercase;
-        font-family: 'Universe';
-        
+        font-family: 'Open Sans';        
         margin-top: 1.2em;
         margin-left: 0;
         text-align: center;
@@ -46,10 +39,8 @@
             margin-left: 0.52em;
         }
         @media (min-width: $screen-lg-min) {
-            font-size: 6em;
-            //margin-top: 2.2em;
-            margin-top: 0.7em;            
-            //margin-left: 1.52em;
+            font-size: 6em;      
+            margin-top: 0.7em;          
             margin-left: 0.8em;
         }
 
@@ -68,7 +59,7 @@
         text-align: center;
 
         @media (min-width: $screen-sm-min) {
-               text-align: left;
+            text-align: left;
         }
         
         @media (min-width: $screen-md-min) {           
@@ -111,7 +102,7 @@
             max-width: 500px;
         }
 
-    }/*end of this*/
+    }/*end of img*/
 
     .arrow-down {
         background-image: url('../img/arrow-down.png');
@@ -131,7 +122,7 @@
         @media (min-width: 1600px) {
             top: 5em;
         }
-    }/*end of this*/
+    }/*end of arrow-down*/
 
     .more-down {
         display: block;
@@ -139,7 +130,7 @@
         @media (min-width: $screen-sm-min) {
             display: none;
         }
-    }
+    }/*end of this*/
 
     .arrow-left {
         display: none;
@@ -152,7 +143,6 @@
             background-size: contain;            
             margin: auto;
             position: relative;
-
             top: -5em;            
             left: -53%;         
             width: 21%;
@@ -164,19 +154,7 @@
             top: -7em;            
             
         }
-
-        @media (min-width: 2000px)         {
-            //top: -9em;            
-        }
-        
-        // @media (min-width: $screen-lg-min) {
-        //     width: 12em;
-        //     height: 1em;            
-        //     top: -7em;
-        //     left: -50%;
-            
-        // }
-    }/*end of this*/
+    }/*end of arrow-left */
 
     .arrow-right {
         background-image: url('../img/arrow-left.png');

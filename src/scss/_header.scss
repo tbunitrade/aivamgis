@@ -5,12 +5,7 @@
     background-repeat: no-repeat;
     height: 100vh;    
 
-    .row {
-        // margin: 0;
-
-        @media (min-width: $screen-md-min) {
-            // margin: auto;
-        }
+    .row {               
 
         .text-center {
             width: 100%;
@@ -72,9 +67,7 @@
         }
                
     
-        @media (min-width: $screen-lg-min) {           
-            
-
+        @media (min-width: $screen-lg-min) {          
             display: block;
             height: 73px;
             margin: 2em;
