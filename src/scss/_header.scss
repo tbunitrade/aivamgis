@@ -101,9 +101,8 @@
 
     .bigTitle {              
 
-        h1 {
-            
-            font-size: 2vh;
+        h1 {            
+            font-size: 3vh;
             line-height: 3.84vh;
             color: $title;
             font-family: 'Open Sans';
@@ -140,8 +139,8 @@
             color: $titlelabel;
             text-transform: uppercase;
             font-weight: 500;
-            font-size: 1.42vh;
-            line-height: 1vh;
+            font-size: 2.42vh;
+            line-height: 5vh;
             letter-spacing: 0;
 
             @media (min-width: $screen-sm-min) {
@@ -204,7 +203,7 @@
 
         h3 {
             display: block;            
-            font-size: 1.32vh;
+            font-size: 2.72vh;
             line-height: 3.04vh;    
             color: $text;                        
             font-weight: 400;
@@ -225,7 +224,7 @@
         }
  
         h4 {            
-            font-size: 1.6vh;
+            font-size: 2.1vh;
             line-height: 3.04vh;  
             color: $smalltitlered;
             text-transform: uppercase;
