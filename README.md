@@ -1,5 +1,5 @@
 
-## Sigma software landing page
+## Landing page for Sigmavia
 
 Simple html + css (sass framework)
 
