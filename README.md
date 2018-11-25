@@ -1,17 +1,14 @@
 
 ## Getting Started
 
-hello this is, light version of simple html + css (sass framework)
+Hello this is, light version of simple html + css (sass framework)
 
 ### Prerequisites
 
-to start npm install, be sure that you use 5.6.0   or install it  
 ```
-node -v must be 6.14.4
-npm install -g npm@3.10.10
+node version 6.14.4
+npm version 3.10.10
 ```
-
-Be sure that you use on your localhost server (openserver etc) 
 
 ### Installing
 
